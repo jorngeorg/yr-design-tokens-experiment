@@ -166,7 +166,7 @@ export const nrkColors = {
 } as const;
 
 export const semanticColors = {
-  "main": {
+  "primary": {
     "background-default": {
       "light": "#ffffff",
       "dark": "#061629"
@@ -232,7 +232,7 @@ export const semanticColors = {
       "dark": "#000000"
     }
   },
-  "support": {
+  "TEST": {
     "background-default": {
       "light": "#f7f4f2",
       "dark": "#131317"

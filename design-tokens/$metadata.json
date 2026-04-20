@@ -16,7 +16,7 @@
     "semantic/color",
     "semantic/modes/main-color/primary",
     "semantic/modes/main-color/accent",
-    "semantic/modes/support-color/orange",
+    "semantic/modes/support-color/TEST",
     "semantic/style"
   ]
 }

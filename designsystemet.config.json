@@ -11,7 +11,7 @@
         },
         "neutral": "#818082",
         "support": {
-          "orange": "#ff852e"
+          "TEST": "#ff852e"
         }
       },
       "typography": {
@@ -20,7 +20,7 @@
       "borderRadius": 4,
       "overrides": {
         "colors": {
-          "main": {
+          "primary": {
             "background-default": {
               "light": "#ffffff",
               "dark": "#061629"
@@ -86,7 +86,7 @@
               "dark": "#000000"
             }
           },
-          "support": {
+          "TEST": {
             "background-default": {
               "light": "#f7f4f2",
               "dark": "#131317"

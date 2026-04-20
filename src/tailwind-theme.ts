@@ -2,7 +2,7 @@
 // Size mode: md
 
 export const themes = {
-  "main": {
+  "primary": {
     "light": {
       "--color-background-default": "#ffffff", // base-white
       "--color-background-tinted": "#3d81d8", // core-blue-500
@@ -40,7 +40,7 @@ export const themes = {
       "--color-base-contrast-default": "#000000" // base-black
     },
   },
-  "support": {
+  "TEST": {
     "light": {
       "--color-background-default": "#f7f4f2", // gray-50
       "--color-background-tinted": "#fff3e8", // warm-orange-50

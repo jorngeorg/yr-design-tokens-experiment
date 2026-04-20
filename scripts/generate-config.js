@@ -61,7 +61,7 @@ const config = {
         },
         neutral: v("Gray", "500"),
         support: {
-          orange: v("Warm Orange", "500"),
+          TEST: v("Warm Orange", "500"),
         },
       },
 			typography: {
@@ -70,7 +70,7 @@ const config = {
       borderRadius: 4,
       overrides: {
         colors: {
-          main: {
+          primary: {
 						"background-default": { 
               light: WHITE, 
               dark: v("Core Blue", 950)
@@ -136,7 +136,7 @@ const config = {
               dark: BLACK
             },         
           },
-          support: colorOverride("Warm Orange"),
+          TEST: colorOverride("Warm Orange"),
           neutral: colorOverride("Gray"),
           info: colorOverride("Alt Blue"),
           success: colorOverride("Cool Green"),

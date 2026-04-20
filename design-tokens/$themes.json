@@ -117,10 +117,10 @@
     "group": "Main color"
   },
   {
-    "id": "c9b9d82c7b3767e86cbb548b0055f8c64e2c651a",
-    "name": "orange",
+    "id": "d602a2138b0e449412c31f5c005a28ee3ac47b27",
+    "name": "TEST",
     "selectedTokenSets": {
-      "semantic/modes/support-color/orange": "enabled"
+      "semantic/modes/support-color/TEST": "enabled"
     },
     "group": "Support color"
   }

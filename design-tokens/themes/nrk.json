@@ -198,70 +198,70 @@
         "$value": "{nrk.neutral.16}"
       }
     },
-    "orange": {
+    "TEST": {
       "1": {
         "$type": "color",
-        "$value": "{nrk.orange.1}"
+        "$value": "{nrk.TEST.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{nrk.orange.2}"
+        "$value": "{nrk.TEST.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{nrk.orange.3}"
+        "$value": "{nrk.TEST.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{nrk.orange.4}"
+        "$value": "{nrk.TEST.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{nrk.orange.5}"
+        "$value": "{nrk.TEST.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{nrk.orange.6}"
+        "$value": "{nrk.TEST.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{nrk.orange.7}"
+        "$value": "{nrk.TEST.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{nrk.orange.8}"
+        "$value": "{nrk.TEST.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{nrk.orange.9}"
+        "$value": "{nrk.TEST.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{nrk.orange.10}"
+        "$value": "{nrk.TEST.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{nrk.orange.11}"
+        "$value": "{nrk.TEST.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{nrk.orange.12}"
+        "$value": "{nrk.TEST.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{nrk.orange.13}"
+        "$value": "{nrk.TEST.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{nrk.orange.14}"
+        "$value": "{nrk.TEST.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{nrk.orange.15}"
+        "$value": "{nrk.TEST.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{nrk.orange.16}"
+        "$value": "{nrk.TEST.16}"
       }
     },
     "info": {
