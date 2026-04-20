@@ -40,6 +40,44 @@ export const themes = {
       "--color-base-contrast-default": "#000000" // base-black
     },
   },
+  "support": {
+    "light": {
+      "--color-background-default": "#f7f4f2", // gray-50
+      "--color-background-tinted": "#fff3e8", // warm-orange-50
+      "--color-surface-default": "#ffffff", // base-white
+      "--color-surface-tinted": "#fff3e8", // warm-orange-50
+      "--color-surface-hover": "#ffe0c7", // warm-orange-100
+      "--color-surface-active": "#ffc9a1", // warm-orange-200
+      "--color-border-subtle": "#ffc9a1", // warm-orange-200
+      "--color-border-default": "#ff852e", // warm-orange-500
+      "--color-border-strong": "#f56a00", // warm-orange-600
+      "--color-text-subtle": "#f56a00", // warm-orange-600
+      "--color-text-default": "#401a00", // warm-orange-900
+      "--color-base-default": "#b94f00", // warm-orange-700
+      "--color-base-hover": "#7c3500", // warm-orange-800
+      "--color-base-active": "#401a00", // warm-orange-900
+      "--color-base-contrast-subtle": "#ffc9a1", // warm-orange-200
+      "--color-base-contrast-default": "#ffffff" // base-white
+    },
+    "dark": {
+      "--color-background-default": "#131317", // gray-950
+      "--color-background-tinted": "#210c00", // warm-orange-950
+      "--color-surface-default": "#210c00", // warm-orange-950
+      "--color-surface-tinted": "#401a00", // warm-orange-900
+      "--color-surface-hover": "#7c3500", // warm-orange-800
+      "--color-surface-active": "#b94f00", // warm-orange-700
+      "--color-border-subtle": "#b94f00", // warm-orange-700
+      "--color-border-default": "#ff9c54", // warm-orange-400
+      "--color-border-strong": "#ffb37a", // warm-orange-300
+      "--color-text-subtle": "#ffb37a", // warm-orange-300
+      "--color-text-default": "#fff3e8", // warm-orange-50
+      "--color-base-default": "#ff852e", // warm-orange-500
+      "--color-base-hover": "#ff9c54", // warm-orange-400
+      "--color-base-active": "#ffb37a", // warm-orange-300
+      "--color-base-contrast-subtle": "#7c3500", // warm-orange-800
+      "--color-base-contrast-default": "#000000" // base-black
+    },
+  },
   "neutral": {
     "light": {
       "--color-background-default": "#f7f4f2", // gray-50

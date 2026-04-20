@@ -137,6 +137,7 @@ const config = {
               dark: BLACK
             },         
           },
+          support: colorOverride("Warm Orange"),
           neutral: colorOverride("Gray"),
           info: colorOverride("Alt Blue"),
           success: colorOverride("Cool Green"),

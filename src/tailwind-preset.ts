@@ -232,6 +232,72 @@ export const semanticColors = {
       "dark": "#000000"
     }
   },
+  "support": {
+    "background-default": {
+      "light": "#f7f4f2",
+      "dark": "#131317"
+    },
+    "background-tinted": {
+      "light": "#fff3e8",
+      "dark": "#210c00"
+    },
+    "surface-default": {
+      "light": "#ffffff",
+      "dark": "#210c00"
+    },
+    "surface-tinted": {
+      "light": "#fff3e8",
+      "dark": "#401a00"
+    },
+    "surface-hover": {
+      "light": "#ffe0c7",
+      "dark": "#7c3500"
+    },
+    "surface-active": {
+      "light": "#ffc9a1",
+      "dark": "#b94f00"
+    },
+    "border-subtle": {
+      "light": "#ffc9a1",
+      "dark": "#b94f00"
+    },
+    "border-default": {
+      "light": "#ff852e",
+      "dark": "#ff9c54"
+    },
+    "border-strong": {
+      "light": "#f56a00",
+      "dark": "#ffb37a"
+    },
+    "text-subtle": {
+      "light": "#f56a00",
+      "dark": "#ffb37a"
+    },
+    "text-default": {
+      "light": "#401a00",
+      "dark": "#fff3e8"
+    },
+    "base-default": {
+      "light": "#b94f00",
+      "dark": "#ff852e"
+    },
+    "base-hover": {
+      "light": "#7c3500",
+      "dark": "#ff9c54"
+    },
+    "base-active": {
+      "light": "#401a00",
+      "dark": "#ffb37a"
+    },
+    "base-contrast-subtle": {
+      "light": "#ffc9a1",
+      "dark": "#7c3500"
+    },
+    "base-contrast-default": {
+      "light": "#ffffff",
+      "dark": "#000000"
+    }
+  },
   "neutral": {
     "background-default": {
       "light": "#f7f4f2",
