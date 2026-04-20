@@ -117,18 +117,10 @@
     "group": "Main color"
   },
   {
-    "id": "0d546651bdff926cb8bb0befe83947ca4bf348b0",
-    "name": "extra1",
+    "id": "c9b9d82c7b3767e86cbb548b0055f8c64e2c651a",
+    "name": "orange",
     "selectedTokenSets": {
-      "semantic/modes/support-color/extra1": "enabled"
-    },
-    "group": "Support color"
-  },
-  {
-    "id": "276da52ce879d63f404de7dbc88b166b5f602248",
-    "name": "extra2",
-    "selectedTokenSets": {
-      "semantic/modes/support-color/extra2": "enabled"
+      "semantic/modes/support-color/orange": "enabled"
     },
     "group": "Support color"
   }

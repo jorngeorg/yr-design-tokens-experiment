@@ -61,8 +61,7 @@ const config = {
         },
         neutral: v("Gray", "500"),
         support: {
-          extra1: v("Warm Pink", "500"),
-          extra2: v("Yellow", "500"),
+          orange: v("Warm Orange", "500"),
         },
       },
 			typography: {

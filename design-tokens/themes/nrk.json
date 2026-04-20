@@ -198,136 +198,70 @@
         "$value": "{nrk.neutral.16}"
       }
     },
-    "extra1": {
+    "orange": {
       "1": {
         "$type": "color",
-        "$value": "{nrk.extra1.1}"
+        "$value": "{nrk.orange.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{nrk.extra1.2}"
+        "$value": "{nrk.orange.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{nrk.extra1.3}"
+        "$value": "{nrk.orange.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{nrk.extra1.4}"
+        "$value": "{nrk.orange.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{nrk.extra1.5}"
+        "$value": "{nrk.orange.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{nrk.extra1.6}"
+        "$value": "{nrk.orange.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{nrk.extra1.7}"
+        "$value": "{nrk.orange.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{nrk.extra1.8}"
+        "$value": "{nrk.orange.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{nrk.extra1.9}"
+        "$value": "{nrk.orange.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{nrk.extra1.10}"
+        "$value": "{nrk.orange.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{nrk.extra1.11}"
+        "$value": "{nrk.orange.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{nrk.extra1.12}"
+        "$value": "{nrk.orange.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{nrk.extra1.13}"
+        "$value": "{nrk.orange.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{nrk.extra1.14}"
+        "$value": "{nrk.orange.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{nrk.extra1.15}"
+        "$value": "{nrk.orange.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{nrk.extra1.16}"
-      }
-    },
-    "extra2": {
-      "1": {
-        "$type": "color",
-        "$value": "{nrk.extra2.1}"
-      },
-      "2": {
-        "$type": "color",
-        "$value": "{nrk.extra2.2}"
-      },
-      "3": {
-        "$type": "color",
-        "$value": "{nrk.extra2.3}"
-      },
-      "4": {
-        "$type": "color",
-        "$value": "{nrk.extra2.4}"
-      },
-      "5": {
-        "$type": "color",
-        "$value": "{nrk.extra2.5}"
-      },
-      "6": {
-        "$type": "color",
-        "$value": "{nrk.extra2.6}"
-      },
-      "7": {
-        "$type": "color",
-        "$value": "{nrk.extra2.7}"
-      },
-      "8": {
-        "$type": "color",
-        "$value": "{nrk.extra2.8}"
-      },
-      "9": {
-        "$type": "color",
-        "$value": "{nrk.extra2.9}"
-      },
-      "10": {
-        "$type": "color",
-        "$value": "{nrk.extra2.10}"
-      },
-      "11": {
-        "$type": "color",
-        "$value": "{nrk.extra2.11}"
-      },
-      "12": {
-        "$type": "color",
-        "$value": "{nrk.extra2.12}"
-      },
-      "13": {
-        "$type": "color",
-        "$value": "{nrk.extra2.13}"
-      },
-      "14": {
-        "$type": "color",
-        "$value": "{nrk.extra2.14}"
-      },
-      "15": {
-        "$type": "color",
-        "$value": "{nrk.extra2.15}"
-      },
-      "16": {
-        "$type": "color",
-        "$value": "{nrk.extra2.16}"
+        "$value": "{nrk.orange.16}"
       }
     },
     "info": {

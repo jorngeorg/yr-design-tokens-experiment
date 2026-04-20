@@ -11,8 +11,7 @@
         },
         "neutral": "#818082",
         "support": {
-          "extra1": "#f72c94",
-          "extra2": "#ffe100"
+          "orange": "#ff852e"
         }
       },
       "typography": {

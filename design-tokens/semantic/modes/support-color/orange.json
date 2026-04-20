@@ -3,67 +3,67 @@
     "support": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.extra1.background-default}"
+        "$value": "{color.orange.background-default}"
       },
       "background-tinted": {
         "$type": "color",
-        "$value": "{color.extra1.background-tinted}"
+        "$value": "{color.orange.background-tinted}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.extra1.surface-default}"
+        "$value": "{color.orange.surface-default}"
       },
       "surface-tinted": {
         "$type": "color",
-        "$value": "{color.extra1.surface-tinted}"
+        "$value": "{color.orange.surface-tinted}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.extra1.surface-hover}"
+        "$value": "{color.orange.surface-hover}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.extra1.surface-active}"
+        "$value": "{color.orange.surface-active}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.extra1.border-subtle}"
+        "$value": "{color.orange.border-subtle}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.extra1.border-default}"
+        "$value": "{color.orange.border-default}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.extra1.border-strong}"
+        "$value": "{color.orange.border-strong}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.extra1.text-subtle}"
+        "$value": "{color.orange.text-subtle}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.extra1.text-default}"
+        "$value": "{color.orange.text-default}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.extra1.base-default}"
+        "$value": "{color.orange.base-default}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.extra1.base-hover}"
+        "$value": "{color.orange.base-hover}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.extra1.base-active}"
+        "$value": "{color.orange.base-active}"
       },
       "base-contrast-subtle": {
         "$type": "color",
-        "$value": "{color.extra1.base-contrast-subtle}"
+        "$value": "{color.orange.base-contrast-subtle}"
       },
       "base-contrast-default": {
         "$type": "color",
-        "$value": "{color.extra1.base-contrast-default}"
+        "$value": "{color.orange.base-contrast-default}"
       }
     }
   }
