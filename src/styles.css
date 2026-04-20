@@ -1,0 +1,59 @@
+/*
+ * Yr Designsystemet — CSS Layer Architecture
+ *
+ * Layer order (lowest → highest priority):
+ *
+ *   1. ds.theme        — Designsystemet generated theme tokens (colors, spacing, typography)
+ *   2. ds.base          — Designsystemet base/reset styles
+ *   3. ds.components    — Designsystemet component styles
+ *   4. yr.primitives    — NRK color palette as CSS custom properties (--nrk-*)
+ *   5. yr.components    — Yr component overrides and extensions
+ *
+ * Layers 1–3 come from @digdir/designsystemet-css and design-tokens-build/theme.css.
+ * Layers 4–5 are defined here.
+ *
+ * How to use when adding new component styles:
+ *
+ *   @layer yr.components {
+ *     .yr-my-component {
+ *       color: var(--ds-color-text-default);
+ *     }
+ *   }
+ *
+ * This guarantees Yr styles always win over designsystemet defaults
+ * without resorting to !important or high-specificity selectors.
+ */
+
+/* Declare the full layer order — layers listed first have lowest priority */
+@layer ds.theme, ds.base, ds.components, yr.primitives, yr.components;
+
+/* NRK font — unlayered (font-face declarations should not be in layers) */
+@import "@nrk/nrk-sans/nrk-sans.css";
+
+/* NRK color primitives */
+@import "./nrk-colors.css" layer(yr.primitives);
+
+/* Yr global base styles */
+@layer yr.primitives {
+  body {
+    font-family: "NRK Sans Variable", sans-serif;
+    font-feature-settings: "cv05" 1; /* Enable lowercase l with tail */
+  }
+}
+
+/* Form elements inherit color context from nearest data-color ancestor */
+@layer yr.components {
+  [data-color] .ds-input {
+    --dsc-input-background: var(--ds-color-surface-default);
+    --dsc-input-border-color: var(--ds-color-border-default);
+    --dsc-input-outline-color--hover: var(--ds-color-border-default);
+    --dsc-input-color: var(--ds-color-text-default);
+    --dsc-input-background--readonly: var(--ds-color-surface-tinted);
+    --dsc-input-border-color--readonly: var(--ds-color-border-subtle);
+    --dsc-input-color--readonly: var(--ds-color-text-default);
+  }
+
+  [data-color] .ds-fieldset > legend + p {
+    color: var(--ds-color-text-subtle);
+  }
+}

@@ -1,0 +1,202 @@
+/**
+ * NRK Color Primitives — GENERATED from @nrk/core-design-tokens
+ *
+ * Do not edit manually. Run: npm run generate-config
+ *
+ * All NRK color palettes exposed as CSS custom properties.
+ * These can be used directly in components when you need access
+ * to the raw color values outside of designsystemet's semantic system.
+ *
+ * Usage: var(--nrk-core-blue-500)
+ */
+
+:root {
+  /* Base colors */
+  --nrk-base-white: #ffffff;
+  --nrk-base-black: #000000;
+  --nrk-base-yr-blue: #00b8f1;
+
+  /* Alt Blue */
+  --nrk-alt-blue-50: #e8f7ff;
+  --nrk-alt-blue-100: #d4eefc;
+  --nrk-alt-blue-200: #9fdaf5;
+  --nrk-alt-blue-300: #6ac6ee;
+  --nrk-alt-blue-400: #35b1e7;
+  --nrk-alt-blue-500: #009de7;
+  --nrk-alt-blue-600: #007eb4;
+  --nrk-alt-blue-700: #015f88;
+  --nrk-alt-blue-800: #01405c;
+  --nrk-alt-blue-900: #012738;
+  --nrk-alt-blue-950: #021a26;
+
+  /* Cool Green */
+  --nrk-cool-green-50: #e8f7eb;
+  --nrk-cool-green-100: #d0f5d9;
+  --nrk-cool-green-200: #aae4b9;
+  --nrk-cool-green-300: #83d499;
+  --nrk-cool-green-400: #5dc479;
+  --nrk-cool-green-500: #37b359;
+  --nrk-cool-green-600: #10a339;
+  --nrk-cool-green-700: #138031;
+  --nrk-cool-green-800: #0c551f;
+  --nrk-cool-green-900: #052b0e;
+  --nrk-cool-green-950: #001a04;
+
+  /* Cool Mint */
+  --nrk-cool-mint-50: #e2fafb;
+  --nrk-cool-mint-100: #cbf4f7;
+  --nrk-cool-mint-200: #85e4ed;
+  --nrk-cool-mint-300: #00d5e9;
+  --nrk-cool-mint-400: #00c4d8;
+  --nrk-cool-mint-500: #00b3c7;
+  --nrk-cool-mint-600: #0090a0;
+  --nrk-cool-mint-700: #006c79;
+  --nrk-cool-mint-800: #004952;
+  --nrk-cool-mint-900: #00272e;
+  --nrk-cool-mint-950: #001c21;
+
+  /* Cool Orange */
+  --nrk-cool-orange-50: #fef3dd;
+  --nrk-cool-orange-100: #fce6bd;
+  --nrk-cool-orange-200: #fdd791;
+  --nrk-cool-orange-300: #fec864;
+  --nrk-cool-orange-400: #feb937;
+  --nrk-cool-orange-500: #ffa90a;
+  --nrk-cool-orange-600: #e59100;
+  --nrk-cool-orange-700: #ae6d00;
+  --nrk-cool-orange-800: #774900;
+  --nrk-cool-orange-900: #402400;
+  --nrk-cool-orange-950: #1c0f00;
+
+  /* Cool Pink */
+  --nrk-cool-pink-50: #fff0fe;
+  --nrk-cool-pink-100: #f7dff6;
+  --nrk-cool-pink-200: #efb4ed;
+  --nrk-cool-pink-300: #e689e4;
+  --nrk-cool-pink-400: #dd5edb;
+  --nrk-cool-pink-500: #d533d2;
+  --nrk-cool-pink-600: #cc08c9;
+  --nrk-cool-pink-700: #9c069a;
+  --nrk-cool-pink-800: #6b046a;
+  --nrk-cool-pink-900: #3b023b;
+  --nrk-cool-pink-950: #260026;
+
+  /* Core Blue */
+  --nrk-core-blue-50: #eef5ff;
+  --nrk-core-blue-100: #d9e9ff;
+  --nrk-core-blue-200: #b2cff5;
+  --nrk-core-blue-300: #8bb5eb;
+  --nrk-core-blue-400: #649be2;
+  --nrk-core-blue-500: #3d81d8;
+  --nrk-core-blue-600: #1767ce;
+  --nrk-core-blue-700: #114f9d;
+  --nrk-core-blue-750: #073b84;
+  --nrk-core-blue-800: #0c366c;
+  --nrk-core-blue-900: #0a2343;
+  --nrk-core-blue-950: #061629;
+
+  /* Gray */
+  --nrk-gray-50: #f7f4f2;
+  --nrk-gray-100: #ebe7e6;
+  --nrk-gray-200: #d0cdcd;
+  --nrk-gray-300: #b6b3b4;
+  --nrk-gray-400: #9b9a9b;
+  --nrk-gray-500: #818082;
+  --nrk-gray-600: #666669;
+  --nrk-gray-700: #56565c;
+  --nrk-gray-800: #36363b;
+  --nrk-gray-900: #1d1d21;
+  --nrk-gray-950: #131317;
+
+  /* Purple */
+  --nrk-purple-50: #f8f1ff;
+  --nrk-purple-100: #eedeff;
+  --nrk-purple-200: #dbbffa;
+  --nrk-purple-300: #c8a1f5;
+  --nrk-purple-400: #b079f0;
+  --nrk-purple-500: #9951ea;
+  --nrk-purple-600: #8129e5;
+  --nrk-purple-700: #641fb3;
+  --nrk-purple-800: #481581;
+  --nrk-purple-900: #2b0b4f;
+  --nrk-purple-950: #18052e;
+
+  /* Red */
+  --nrk-red-50: #fff2ee;
+  --nrk-red-100: #ffddd6;
+  --nrk-red-200: #ffc7bd;
+  --nrk-red-300: #ff9e8f;
+  --nrk-red-400: #ff7461;
+  --nrk-red-450: #ff5d46;
+  --nrk-red-500: #f34531;
+  --nrk-red-600: #e81502;
+  --nrk-red-700: #b21002;
+  --nrk-red-800: #7b0a02;
+  --nrk-red-900: #450502;
+  --nrk-red-950: #290103;
+
+  /* Warm Green */
+  --nrk-warm-green-50: #f5f7d9;
+  --nrk-warm-green-100: #ecf2b2;
+  --nrk-warm-green-200: #dfe990;
+  --nrk-warm-green-300: #d2df6e;
+  --nrk-warm-green-400: #c4d64d;
+  --nrk-warm-green-500: #b7cc2b;
+  --nrk-warm-green-600: #9eb025;
+  --nrk-warm-green-700: #75831a;
+  --nrk-warm-green-800: #4c5610;
+  --nrk-warm-green-900: #232905;
+  --nrk-warm-green-950: #121700;
+
+  /* Warm Mint */
+  --nrk-warm-mint-50: #dcfaf5;
+  --nrk-warm-mint-100: #bef7ed;
+  --nrk-warm-mint-200: #85e6d6;
+  --nrk-warm-mint-300: #4bd5be;
+  --nrk-warm-mint-400: #12c4a7;
+  --nrk-warm-mint-500: #10ab92;
+  --nrk-warm-mint-600: #0e927c;
+  --nrk-warm-mint-700: #0a705f;
+  --nrk-warm-mint-800: #064e42;
+  --nrk-warm-mint-900: #022c25;
+  --nrk-warm-mint-950: #011c18;
+
+  /* Warm Orange */
+  --nrk-warm-orange-50: #fff3e8;
+  --nrk-warm-orange-100: #ffe0c7;
+  --nrk-warm-orange-200: #ffc9a1;
+  --nrk-warm-orange-300: #ffb37a;
+  --nrk-warm-orange-400: #ff9c54;
+  --nrk-warm-orange-500: #ff852e;
+  --nrk-warm-orange-600: #f56a00;
+  --nrk-warm-orange-700: #b94f00;
+  --nrk-warm-orange-800: #7c3500;
+  --nrk-warm-orange-900: #401a00;
+  --nrk-warm-orange-950: #210c00;
+
+  /* Warm Pink */
+  --nrk-warm-pink-50: #fff0f7;
+  --nrk-warm-pink-100: #ffdbee;
+  --nrk-warm-pink-200: #fdafd7;
+  --nrk-warm-pink-300: #fb84c1;
+  --nrk-warm-pink-400: #f958ab;
+  --nrk-warm-pink-500: #f72c94;
+  --nrk-warm-pink-600: #de0072;
+  --nrk-warm-pink-700: #ab0058;
+  --nrk-warm-pink-800: #78003d;
+  --nrk-warm-pink-900: #450022;
+  --nrk-warm-pink-950: #2e0017;
+
+  /* Yellow */
+  --nrk-yellow-50: #fbf8cb;
+  --nrk-yellow-100: #fff7a3;
+  --nrk-yellow-200: #fff36e;
+  --nrk-yellow-300: #ffef3a;
+  --nrk-yellow-400: #ffea05;
+  --nrk-yellow-500: #ffe100;
+  --nrk-yellow-600: #dac100;
+  --nrk-yellow-700: #b5a000;
+  --nrk-yellow-800: #746500;
+  --nrk-yellow-900: #332a00;
+  --nrk-yellow-950: #1a1500;
+}

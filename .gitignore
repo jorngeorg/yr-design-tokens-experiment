@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+storybook-static/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

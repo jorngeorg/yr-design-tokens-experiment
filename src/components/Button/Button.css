@@ -1,0 +1,22 @@
+@layer yr.components {
+  .yr-button[data-size="sm"] {
+    padding: 0.25rem 0.75rem;
+  }
+
+  .yr-button[data-size="md"] {
+    padding: 0.5rem 1rem;
+  }
+
+  .yr-button[data-size="lg"] {
+    padding: 0.75rem 1.5rem;
+  }
+
+  /* Secondary variant - lighter primary using surface colors */
+  .yr-button[data-yr-variant="secondary"] {
+    --dsc-button-background: var(--ds-color-accent-background-tinted);
+    --dsc-button-background--hover: var(--ds-color-accent-surface-hover);
+    --dsc-button-background--active: var(--ds-color-accent-surface-active);
+    --dsc-button-color: var(--ds-color-text-subtle);
+    --dsc-button-color--hover: var(--ds-color-text-subtle);
+  }
+}

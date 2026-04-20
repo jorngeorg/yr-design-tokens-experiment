@@ -1,0 +1,50 @@
+{
+  "name": "yr-designsystemet",
+  "version": "1.0.0",
+  "description": "Yr design system based on designsystemet.no",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "generate-config": "node scripts/generate-config.js",
+    "generate-tailwind-preset": "node scripts/generate-tailwind-preset.js",
+    "build:tokens": "npm run generate-config && npx @digdir/designsystemet@latest tokens create --config designsystemet.config.json && npx @digdir/designsystemet@latest tokens build --config designsystemet.config.json && npm run generate-tailwind-preset",
+    "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "dev": "npm run storybook",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "yr"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@digdir/designsystemet-css": "^1.9.0",
+    "@digdir/designsystemet-react": "^1.9.0",
+    "@mattilsynet/design": "^3.1.18",
+    "@nrk/core-design-tokens": "^0.7.2",
+    "@nrk/nrk-sans": "^2.1.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.3",
+    "@storybook/addon-a11y": "^10.1.11",
+    "@storybook/addon-docs": "^10.1.11",
+    "@storybook/addon-onboarding": "^10.1.11",
+    "@storybook/addon-vitest": "^10.1.11",
+    "@storybook/react-vite": "^10.1.11",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/browser-playwright": "^4.0.17",
+    "@vitest/coverage-v8": "^4.0.17",
+    "playwright": "^1.57.0",
+    "storybook": "^10.1.11",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
+  }
+}

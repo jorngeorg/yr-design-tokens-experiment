@@ -1,0 +1,20 @@
+@layer yr.components {
+  .yr-tabs-list {
+    border-bottom: 0;
+  }
+
+  .yr-tabs-tab {
+    border-radius: var(--ds-border-radius-default);
+  }
+
+  .yr-tabs-tab[aria-selected="true"] {
+    color: var(--ds-color-base-contrast-default);
+    background-color: var(--ds-color-base-default);
+  }
+
+  .yr-tabs-tab[aria-selected="true"]::after,
+  .yr-tabs-tab:hover::after {
+    background: none;
+    height: 0;
+  }
+}

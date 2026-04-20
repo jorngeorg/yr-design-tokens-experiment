@@ -1,0 +1,5 @@
+@layer yr.components {
+  .yr-tag[data-shape="rounded"] {
+    border-radius: 999px;
+  }
+}
