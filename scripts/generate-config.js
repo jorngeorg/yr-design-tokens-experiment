@@ -61,7 +61,7 @@ const config = {
         },
         neutral: v("Gray", "500"),
         support: {
-          TEST: v("Warm Orange", "500"),
+          TEST: v("Warm Orange", "500"), 
         },
       },
 			typography: {
@@ -76,7 +76,7 @@ const config = {
               dark: v("Core Blue", 950)
             },
 						"background-tinted": { 
-              light: v("Core Blue", 500), 
+              light: v("Core Blue", 50), 
               dark: v("Core Blue", 950)
             },
 						"surface-default": { 
@@ -136,7 +136,6 @@ const config = {
               dark: BLACK
             },         
           },
-          TEST: colorOverride("Warm Orange"),
           neutral: colorOverride("Gray"),
           info: colorOverride("Alt Blue"),
           success: colorOverride("Cool Green"),

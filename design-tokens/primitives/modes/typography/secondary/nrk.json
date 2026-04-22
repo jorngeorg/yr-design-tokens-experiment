@@ -2,7 +2,7 @@
   "nrk": {
     "font-family": {
       "$type": "fontFamilies",
-      "$value": "NRK Sans Variable"
+      "$value": "Inter"
     },
     "font-weight": {
       "medium": {

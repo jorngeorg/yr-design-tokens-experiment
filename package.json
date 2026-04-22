@@ -8,8 +8,8 @@
   "scripts": {
     "build": "tsc",
     "generate-config": "node scripts/generate-config.js",
-    "generate-tailwind-preset": "node scripts/generate-tailwind-preset.js",
-    "build:tokens": "npm run generate-config && npx @digdir/designsystemet@latest tokens create --config designsystemet.config.json && npx @digdir/designsystemet@latest tokens build --config designsystemet.config.json && npm run generate-tailwind-preset",
+    "build:tokens": "npm run generate-config && npx @digdir/designsystemet@latest tokens create --config designsystemet.config.json && npx @digdir/designsystemet@latest tokens build --config designsystemet.config.json && npm run generate-tailwind-theme",
+    "generate-tailwind-theme": "vite build",
     "typecheck": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
     "dev": "npm run storybook",

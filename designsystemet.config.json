@@ -1,23 +1,27 @@
 {
-  "$schema": "https://designsystemet.no/schemas/cli/1.11.0.json",
+  "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
   "outDir": "./design-tokens",
-  "clean": true,
   "themes": {
     "nrk": {
       "colors": {
         "main": {
-          "primary": "#114f9d",
-          "accent": "#114f9d"
+          "primary": "#114f9d"
         },
-        "neutral": "#818082",
         "support": {
-          "TEST": "#ff852e"
-        }
+          "cool-mint": "#0090A0",
+          "warm-mint": "#0E927C",
+          "cool-green": "#10A339",
+          "warm-green": "#9EB025",
+          "yellow": "#DAC100",
+          "cool-orange": "#E59100",
+          "warm-orange": "#F56A00",
+          "red": "#E81502",
+          "warm-pink": "#DE0072",
+          "cool-pink": "#CC08C9",
+          "purple": "#8129E5"
+        },
+        "neutral": "#56565c"
       },
-      "typography": {
-        "fontFamily": "NRK Sans Variable"
-      },
-      "borderRadius": 4,
       "overrides": {
         "colors": {
           "primary": {
@@ -26,7 +30,7 @@
               "dark": "#061629"
             },
             "background-tinted": {
-              "light": "#3d81d8",
+              "light": "#eef5ff",
               "dark": "#061629"
             },
             "surface-default": {
@@ -80,72 +84,6 @@
             "base-contrast-subtle": {
               "light": "#b2cff5",
               "dark": "#0c366c"
-            },
-            "base-contrast-default": {
-              "light": "#ffffff",
-              "dark": "#000000"
-            }
-          },
-          "TEST": {
-            "background-default": {
-              "light": "#f7f4f2",
-              "dark": "#131317"
-            },
-            "background-tinted": {
-              "light": "#fff3e8",
-              "dark": "#210c00"
-            },
-            "surface-default": {
-              "light": "#ffffff",
-              "dark": "#210c00"
-            },
-            "surface-tinted": {
-              "light": "#fff3e8",
-              "dark": "#401a00"
-            },
-            "surface-hover": {
-              "light": "#ffe0c7",
-              "dark": "#7c3500"
-            },
-            "surface-active": {
-              "light": "#ffc9a1",
-              "dark": "#b94f00"
-            },
-            "border-subtle": {
-              "light": "#ffc9a1",
-              "dark": "#b94f00"
-            },
-            "border-default": {
-              "light": "#ff852e",
-              "dark": "#ff9c54"
-            },
-            "border-strong": {
-              "light": "#f56a00",
-              "dark": "#ffb37a"
-            },
-            "text-subtle": {
-              "light": "#f56a00",
-              "dark": "#ffb37a"
-            },
-            "text-default": {
-              "light": "#401a00",
-              "dark": "#fff3e8"
-            },
-            "base-default": {
-              "light": "#b94f00",
-              "dark": "#ff852e"
-            },
-            "base-hover": {
-              "light": "#7c3500",
-              "dark": "#ff9c54"
-            },
-            "base-active": {
-              "light": "#401a00",
-              "dark": "#ffb37a"
-            },
-            "base-contrast-subtle": {
-              "light": "#ffc9a1",
-              "dark": "#7c3500"
             },
             "base-contrast-default": {
               "light": "#ffffff",
@@ -356,7 +294,7 @@
               "dark": "#1c0f00"
             },
             "background-tinted": {
-              "light": "#fef3ddff",
+              "light": "#fef3dd",
               "dark": "#1c0f000a"
             },
             "surface-default": {
@@ -483,7 +421,8 @@
             }
           }
         }
-      }
+      },
+      "borderRadius": 4
     }
   }
 }

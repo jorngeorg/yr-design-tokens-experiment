@@ -109,18 +109,90 @@
     "group": "Main color"
   },
   {
-    "id": "77029e975ec86efe4b92eb0be546d61959085bd1",
-    "name": "accent",
+    "id": "27f776f8c02f50f1f0632e3838fa00221b5576ea",
+    "name": "cool-mint",
     "selectedTokenSets": {
-      "semantic/modes/main-color/accent": "enabled"
+      "semantic/modes/support-color/cool-mint": "enabled"
     },
-    "group": "Main color"
+    "group": "Support color"
   },
   {
-    "id": "d602a2138b0e449412c31f5c005a28ee3ac47b27",
-    "name": "TEST",
+    "id": "fcb06e4b65bbd58806ca24296e673f1e2c040d7a",
+    "name": "warm-mint",
     "selectedTokenSets": {
-      "semantic/modes/support-color/TEST": "enabled"
+      "semantic/modes/support-color/warm-mint": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "b3419f14f69fa2e2b21d2a7e2929b20cc0f10597",
+    "name": "cool-green",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/cool-green": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "7607e164fdc55cf100f8d07f787b62ed61497bc0",
+    "name": "warm-green",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/warm-green": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "ddd4471c76b60147316bfae4e98673bc02736c62",
+    "name": "yellow",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/yellow": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "72c48c8e3b5023f2746cf19dfeaaa9e05eece535",
+    "name": "cool-orange",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/cool-orange": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "064f5dac456ebc44706bd39d930c3ac0ece27cf2",
+    "name": "warm-orange",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/warm-orange": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "39553ff15fc38d5d32fe8a548dffc3f559b95caf",
+    "name": "red",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/red": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "a4c1e1a714f612ae122a5ae4c6adf6d2e24d526a",
+    "name": "warm-pink",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/warm-pink": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "a06c1d73e8650e98fcd15e3cd785ced0b0ab3b7c",
+    "name": "cool-pink",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/cool-pink": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "d5bd20cd5c66aee8decab2407a33a8aa764934a1",
+    "name": "purple",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/purple": "enabled"
     },
     "group": "Support color"
   }

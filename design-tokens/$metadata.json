@@ -15,8 +15,17 @@
     "themes/nrk",
     "semantic/color",
     "semantic/modes/main-color/primary",
-    "semantic/modes/main-color/accent",
-    "semantic/modes/support-color/TEST",
+    "semantic/modes/support-color/cool-mint",
+    "semantic/modes/support-color/warm-mint",
+    "semantic/modes/support-color/cool-green",
+    "semantic/modes/support-color/warm-green",
+    "semantic/modes/support-color/yellow",
+    "semantic/modes/support-color/cool-orange",
+    "semantic/modes/support-color/warm-orange",
+    "semantic/modes/support-color/red",
+    "semantic/modes/support-color/warm-pink",
+    "semantic/modes/support-color/cool-pink",
+    "semantic/modes/support-color/purple",
     "semantic/style"
   ]
 }
