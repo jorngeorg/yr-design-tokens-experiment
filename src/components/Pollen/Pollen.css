@@ -1,0 +1,17 @@
+@layer yr-components {
+  .pollen-card__subtitle {
+    margin-top: 0;
+    color: var(--ds-color-neutral-text-subtle);
+  }
+
+  .pollen-card__day:not(:last-child) {
+    border-bottom: 1px solid var(--ds-color-neutral-border-subtle);
+  }
+
+  .pollen-card__pollen-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--ds-size-2);
+  }
+}

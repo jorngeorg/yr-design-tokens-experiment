@@ -1,0 +1,9 @@
+@layer yr.components {
+  .ds-paragraph[data-weight="regular"] {
+    font-weight: var(--ds-font-weight-regular);
+  }
+
+  .ds-paragraph[data-weight="medium"] {
+    font-weight: var(--ds-font-weight-medium);
+  }
+}
