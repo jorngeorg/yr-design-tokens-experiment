@@ -109,6 +109,14 @@
     "group": "Main color"
   },
   {
+    "id": "b4752247c98aeb88a63fa7637d50b9c62d67ff7b",
+    "name": "alt-blue",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/alt-blue": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
     "id": "27f776f8c02f50f1f0632e3838fa00221b5576ea",
     "name": "cool-mint",
     "selectedTokenSets": {
@@ -193,6 +201,14 @@
     "name": "purple",
     "selectedTokenSets": {
       "semantic/modes/support-color/purple": "enabled"
+    },
+    "group": "Support color"
+  },
+  {
+    "id": "0a55ae2a237f5215d6ebed677bc8f01e79417955",
+    "name": "gray",
+    "selectedTokenSets": {
+      "semantic/modes/support-color/gray": "enabled"
     },
     "group": "Support color"
   }

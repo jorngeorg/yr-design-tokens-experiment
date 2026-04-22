@@ -6,6 +6,7 @@ import type {} from '@digdir/designsystemet-types';
 declare module '@digdir/designsystemet-types' {
   export interface ColorDefinitions {
     primary: never;
+    'alt-blue': never;
     'cool-mint': never;
     'warm-mint': never;
     'cool-green': never;
@@ -17,6 +18,7 @@ declare module '@digdir/designsystemet-types' {
     'warm-pink': never;
     'cool-pink': never;
     purple: never;
+    gray: never;
     neutral: never;
   }
   export interface SeverityColorDefinitions {

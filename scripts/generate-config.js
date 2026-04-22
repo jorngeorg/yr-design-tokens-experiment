@@ -29,22 +29,22 @@ const BLACK = "#000000";
 function colorOverride(palette, options = {}) {
   const { contrastOnBase = WHITE, darkContrastOnBase = BLACK } = options;
   return {
-    "background-default":     { light: v("Gray", "50"),   dark: v("Gray", "950") },
-    "background-tinted":      { light: v(palette, "50"),  dark: v(palette, "950") },
+    "background-default":     { light: WHITE,   dark: v(palette, "950") },
+    "background-tinted":      { light: v(palette, "50"),  dark: v(palette, "800") },
     "surface-default":        { light: WHITE,  dark: v(palette, "950") },
-    "surface-tinted":         { light: v(palette, "50"),  dark: v(palette, "900") },
-    "surface-hover":          { light: v(palette, "100"), dark: v(palette, "800") },
-    "surface-active":         { light: v(palette, "200"), dark: v(palette, "700") },
-    "border-subtle":          { light: v(palette, "200"), dark: v(palette, "700") },
-    "border-default":         { light: v(palette, "500"), dark: v(palette, "400") },
-    "border-strong":          { light: v(palette, "600"), dark: v(palette, "300") },
-    "text-subtle":            { light: v(palette, "600"), dark: v(palette, "300") },
-    "text-default":           { light: v(palette, "900"), dark: v(palette, "50") },
-    "base-default":           { light: v(palette, "700"), dark: v(palette, "500") },
-    "base-hover":             { light: v(palette, "800"), dark: v(palette, "400") },
-    "base-active":            { light: v(palette, "900"), dark: v(palette, "300") },
+    "surface-tinted":         { light: v(palette, "100"),  dark: v(palette, "700") },
+    "surface-hover":          { light: v(palette, "200"), dark: v(palette, "600") },
+    "surface-active":         { light: v(palette, "300"), dark: v(palette, "500") },
+    "border-subtle":          { light: v(palette, "200"), dark: v(palette, "600") },
+    "border-default":         { light: v(palette, "400"), dark: v(palette, "500") },
+    "border-strong":          { light: v(palette, "500"), dark: v(palette, "400") },
+    "text-subtle":            { light: v(palette, "700"), dark: v(palette, "200") },
+    "text-default":           { light: v(palette, "950"), dark: v(palette, "50") },
+    "base-default":           { light: v(palette, "700"), dark: v(palette, "300") },
+    "base-hover":             { light: v(palette, "800"), dark: v(palette, "200") },
+    "base-active":            { light: v(palette, "900"), dark: v(palette, "100") },
     "base-contrast-subtle":   { light: v(palette, "200"),  dark: v(palette, "800") },
-    "base-contrast-default":  { light: contrastOnBase,  dark: darkContrastOnBase },
+    "base-contrast-default":  { light: WHITE,  dark: v(palette, "950") },
   };
 }
 
@@ -57,11 +57,22 @@ const config = {
       colors: {
         main: {
           primary: v("Core Blue", "700"),
-          accent: v("Core Blue", "700"),
         },
         neutral: v("Gray", "500"),
         support: {
-          TEST: v("Warm Orange", "500"), 
+          "alt-blue": v("Alt Blue", "500"),
+          "cool-mint": v("Cool Mint", "500"), 
+          "warm-mint": v("Warm Mint", "500"), 
+          "cool-green": v("Cool Green", "500"), 
+          "warm-green": v("Warm Green", "500"), 
+          "yellow": v("Yellow", "500"), 
+          "cool-orange": v("Cool Orange", "500"), 
+          "warm-orange": v("Warm Orange", "500"), 
+          "red": v("Red", "500"), 
+          "warm-pink": v("Warm Pink", "500"), 
+          "cool-pink": v("Cool Pink", "500"), 
+          "purple": v("Purple", "500"), 
+          "gray": v("Gray", "500"), 
         },
       },
 			typography: {
@@ -70,72 +81,20 @@ const config = {
       borderRadius: 4,
       overrides: {
         colors: {
-          primary: {
-						"background-default": { 
-              light: WHITE, 
-              dark: v("Core Blue", 950)
-            },
-						"background-tinted": { 
-              light: v("Core Blue", 50), 
-              dark: v("Core Blue", 950)
-            },
-						"surface-default": { 
-              light: WHITE, 
-              dark: BLACK 
-            },
-						"surface-tinted": { 
-              light: v("Core Blue", 50),
-              dark: v("Core Blue", 900)
-            },
-						"surface-hover": { 
-              light: v("Core Blue", 200),
-              dark: v("Core Blue", 800)
-            },
-						"surface-active": { 
-              light: v("Core Blue", 300),
-              dark: v("Core Blue", 600)
-            },
-						"border-subtle": { 
-              light: v("Core Blue", 200),
-              dark: v("Core Blue", 700)
-            },
-						"border-default": { 
-              light: v("Core Blue", 800),
-              dark: v("Core Blue", 200)
-            },
-						"border-strong": { 
-              light: v("Core Blue", 700),
-              dark: v("Core Blue", 300)
-            },
-						"text-subtle": { 
-              light: v("Core Blue", 700),
-              dark: v("Core Blue", 200)
-            },
-						"text-default": { 
-              light: v("Core Blue", 900),
-              dark: v("Core Blue", 50)
-            },
-						"base-default": { 
-              light: v("Core Blue", 700),
-              dark: v("Core Blue", 300)
-            },
-						"base-hover": { 
-              light: v("Core Blue", 800),
-              dark: v("Core Blue", 200)
-            },
-						"base-active": { 
-              light: v("Core Blue", 900),
-              dark: v("Core Blue", 100)
-            },
-						"base-contrast-subtle": { 
-              light: v("Core Blue", 200),
-              dark: v("Core Blue", 800)
-            },
-						"base-contrast-default": { 
-              light: WHITE,
-              dark: BLACK
-            },         
-          },
+          "alt-blue": colorOverride("Alt Blue"),
+          "cool-mint": colorOverride("Cool Mint"), 
+          "warm-mint": colorOverride("Warm Mint"), 
+          "cool-green": colorOverride("Cool Green"), 
+          "warm-green": colorOverride("Warm Green"), 
+          "yellow": colorOverride("Yellow"), 
+          "cool-orange": colorOverride("Cool Orange"), 
+          "warm-orange": colorOverride("Warm Orange"), 
+          "red": colorOverride("Red"), 
+          "warm-pink": colorOverride("Warm Pink"), 
+          "cool-pink": colorOverride("Cool Pink"), 
+          "purple": colorOverride("Purple"), 
+          "gray": colorOverride("Gray"), 
+          primary: colorOverride("Core Blue"),       
           neutral: colorOverride("Gray"),
           info: colorOverride("Alt Blue"),
           success: colorOverride("Cool Green"),
